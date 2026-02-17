@@ -1,0 +1,89 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Chainlit files
+.chainlit/translations/
+.chainlit/config.toml
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# R files (if any)
+.Rhistory
+.RData
+.Rproj.user
+
+# Node modules (if any)
+node_modules/
+
+# Temporary directories
+tmp/
+temp/
+cache/
+
+# Data files (exclude large datasets)
+data/
+*.csv
+*.xlsx
+*.json
+!requirements*.txt
+!package*.json
+
+# Test files
+test_outputs/
+test_results/
+
+# Documentation builds
+docs/_build/
+docs/build/

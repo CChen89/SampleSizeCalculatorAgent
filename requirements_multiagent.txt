@@ -1,0 +1,47 @@
+# Multi-Agent Sample Size Calculator Requirements
+
+# Core LangChain and LangGraph
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-core>=0.1.0
+langgraph>=0.1.0
+langchain-community>=0.0.38
+
+# MCP (Model Context Protocol) integration
+langchain-mcp-adapters>=0.1.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Pydantic for data validation
+pydantic>=2.0.0
+
+# Async support
+asyncio-tools>=0.1.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Statistical libraries (optional, for enhanced calculations)
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Azure OpenAI
+openai>=1.0.0
+
+# HTTP client for MCP
+httpx>=0.24.0
+requests>=2.31.0
+
+# Logging and debugging
+loguru>=0.7.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
